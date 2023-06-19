@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unofficial ChatGPT Turing Test</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        #quiz-container {
+            text-align: center;
+        }
+        #question {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Am I human?</h1>
+        <button id="start-btn" class="btn">Start the unofficial ChatGPT Turing Test</button>
+        <div id="question" style="display: none;"></div>
+        <div id="options" style="display: block;">
+            <button id="true-btn" class="btn">Yes</button>
+            <button id="false-btn" class="btn">No</button>
+        </div>
+        <div id="result" style="display: none;"></div>
+         <p id="score"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
