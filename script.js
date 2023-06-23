@@ -13,7 +13,7 @@ const questionBank = [
         answer: true
     },
     {
-        question: "Something that makes me happy is witnessing acts of kindness and compassion, where people go out of their way to help others without expecting anything in return, reminding me of the inherent goodness in humanity and filling me with hope and warmth.",
+        question: "Proposal: Generally, do not remove sourced information from the encyclopedia solely because it seems biased. In this case, remove material only when you have a good reason to believe it misinforms or misleads readers in ways that cannot be addressed by rewriting the passage.",
         answer: true
     },
     {
