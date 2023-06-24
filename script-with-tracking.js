@@ -104,21 +104,15 @@ function checkAnswer(selectedAnswer) {
         score++;
 
         // Send event to Google Analytics for correct answer
-        gtag('event', 'quiz_answer', {
-            'event_category': 'Quiz',
-            'event_action': 'Correct',
-            'event_label': 'Correct: ' + question.question
-        });
-    } else {
+        gtag('event', 'quiz_answer_correct: ' + question.question);
+
+    }
+    else {
         resultElement.textContent = "Incorrect!";
         resultElement.style.color = "red";
 
         // Send event to Google Analytics for incorrect answer
-        gtag('event', 'quiz_answer', {
-            'event_category': 'Quiz',
-            'event_action': 'Incorrect',
-            'event_label': 'Incorrect: ' + question.question
-        });
+        gtag('event', 'quiz_answer_incorrect: ' + question.question);
     }
 
     resultElement.style.display = "block";
