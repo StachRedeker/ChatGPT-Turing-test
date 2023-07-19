@@ -1,6 +1,9 @@
 # ChatGPT Turing Test
 > Can you spot the difference between a human and an artificial intelligence? Test your skills using the **unofficial ChatGPT Turing Test**.
 
+> **Note**
+> *The results are in!* Curious about the first results of this experiment? Read more about them [here](https://stach.fun/chatgpt/results/).
+
 ## Turing test background
 The [Turing test](https://en.wikipedia.org/wiki/Turing_test) is a research method presented by mathematician and computer scientist Alan Turing. The test aims to evaluate the ability of a computer program to exhibit human behaviour. Most Turing tests work by presenting computer-generated and human-generated responses to a panel of humans. If the panel is unable to correctly identify which responses belong to the computer, the computer fooled the panel and passed the Turing test.
 
